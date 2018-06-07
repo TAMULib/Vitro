@@ -30,7 +30,7 @@ auth:ADMIN
     # Uncomment the following permission line to enable the SPARQL update API. 
     # Before enabling, be sure that the URL api/sparqlUpdate is secured by HTTPS, 
     # so passwords will not be sent in clear text.   	  
-    #auth:hasPermission simplePermission:UseSparqlUpdateApi ;    
+    auth:hasPermission simplePermission:UseSparqlUpdateApi ;    
     
     # permissions for CURATOR and above.
     auth:hasPermission simplePermission:EditOntology ;
